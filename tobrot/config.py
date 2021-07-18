@@ -3,14 +3,14 @@ from tobrot.get_cfg import get_config
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = 1737347359:AAGonfMn50Kc4pxLgIXQQZrVtCdK6oNlOe0("TG_BOT_TOKEN", True)
+    TG_BOT_TOKEN = 1839639375:AAG9h_uaOel3ykXY5kc3AEmfqpUr14c-1XM("TG_BOT_TOKEN", True)
     # The Telegram API things
-    APP_ID = int(6339540("APP_ID", True))
-    API_HASH = 3a2f619b8b46869c29003dbe4822d3e3("API_HASH", True)
+    APP_ID = int(6401163("APP_ID", True))
+    API_HASH = 5f4dd66a42543d0ce4123cf259bddd95("API_HASH", True)
     # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
     AUTH_CHANNEL = set(
-        int(x) for x in -1001410567659(
+        int(x) for x in -1001586069130(
             "AUTH_CHANNEL",
             True
         ).split()
